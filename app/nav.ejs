@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%- title %></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/style/bootstrap.css">
+    <link rel="stylesheet" href="./assets/style/all.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg border border-light">
+      <div class="row container">
+        <div class="col-md-9 offset-md-3">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars text-dark fs-4"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav d-flex justify-content-between sub-nav w-100">
+              <li class="nav-item"><a class="nav-link" href="#">音樂</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">戲劇</a></li>
+              <li class="nav-item"><a class="nav-link" href="product.html">設計</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">藝術</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">美食</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">旅遊</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">電影</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">親子</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">期間限定</a></li>
+            </ul>        
+          </div>
+        </div>
+      </div>
+    </nav>
+    <%- contents %>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>

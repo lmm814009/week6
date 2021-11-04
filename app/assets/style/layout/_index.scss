@@ -11,6 +11,9 @@ a{
   text-decoration: none;
   color: $dark;
 }
+.btn a{
+  text-decoration: none;
+}
 a:hover{
   text-decoration: none;
   color: $light;
@@ -70,14 +73,18 @@ img {
   height: 100%;
 }
 
-.swiper-slide {
+.swiper-wrapper{
   width: 100%;
 }
-.swiper-wrapper{
-  width: 350px;
+@media (max-width: 768px){
+  .swiper-slide img {
+    width: 350px;
+
+  }
 }
+
 .swiper-slide img {
-  width: 350px;
+  width: 100%;
   height: 350px;
   object-fit: cover;
 }

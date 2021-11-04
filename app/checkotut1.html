@@ -1,12 +1,12 @@
 ---
-title: Boostrap Index
+title: 藝術展覽購票網
 layout: ./app/layout.ejs
 engine: ejs
 current: index
 ---
 <div class="container">
   <div class="row mb-6">
-    <div class="col-8 mb-2">
+    <div class="col-md-8 mb-2">
       <div class="position-relative mb-4">
         <div class="progress" style="height: 2px;">
           <div class="progress-bar bg-secondary" role="progressbar" style="width: 100%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
@@ -17,9 +17,9 @@ current: index
         <div class="position-absolute top-0 start-87 translate-middle border border-secondary bg-light rounded-circle" style="width: 8px; height:8px;"></div>
       </div>
     </div>
-    <div class="col-8 ">
+    <div class="col-md-8">
       <div class="d-flex position-relative">
-        <div class="position-absolute top-100 start-12 translate-middle"><h5>確認訂單</h5></div>
+        <div class="position-absolute top-100 start-12 translate-middle"><h5 class="fw-bold">確認訂單</h5></div>
         <div class="position-absolute top-0 start-37 translate-middle"><h5>填寫訂購資訊</h5></div>
         <div class="position-absolute top-0 start-62 translate-middle"><h5>填寫付款資訊</h5></div>
         <div class="position-absolute top-0 start-87 translate-middle"><h5>完成訂購</h5></div>
@@ -27,11 +27,11 @@ current: index
     </div>
   </div>
   <div class="row">
-    <div class="col-8 p-0">
-      <ul>
-        <li class="d-flex justify-content-between mb-4">
+    <div class="d-none d-md-block col-md-8">
+      <ul class="p-0">
+        <li class="d-flex justify-content-between mb-4" style="height: 84px;">
           <div class="d-flex">
-            <img style="width: 160px;" src="./assets/images/alina-grubnyak-R84Oy89aNKs-unsplash.jpg" alt="">
+            <img class="mr-auto" style="width: 160px;" src="./assets/images/alina-grubnyak-R84Oy89aNKs-unsplash.jpg" alt="">
             <div class="d-flex flex-column justify-content-center px-4">
               <h5 class="fw-bold">2020 台味設計展</h5>
               <h5 class="fw-bold">01 JUN | 31 OCT</h5>
@@ -94,14 +94,87 @@ current: index
         </li>
       </ul>
     </div>
+    <div class="d-block d-md-none col-12">
+        <ul class="p-0">
+          <li class="d-flex justify-content-between h-100 mb-4">
+              <div class="row" >
+                <div class="col-6">
+                  <img class="w-100"  src="./assets/images/alina-grubnyak-R84Oy89aNKs-unsplash.jpg" alt="">
+                </div>
+                <div class="col-6">
+                  <div class="d-flex flex-column justify-content-center mr-auto h-100 px-4">
+                    <div class="d-flex justify-content-between">
+                      <h6 class="fw-bold">No.22 線上設計展</h6>
+                      <i class="fas fa-times fs-4"></i> 
+                    </div>
+                    <h6 class="fw-bold">01 JUN | 31 OCT</h6>
+                    <div class="d-flex justify-content-between">
+                      <div class="d-flex">
+                        <h6 class="text-dark">全票</h6> 
+                        <h6 class="fw-bold">1</h6>
+                      </div>
+                      <h6 class="fw-bold">$350</h6>                 
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+          </li>
+          <li class="d-flex justify-content-between h-100 mb-4">
+              <div class="row" >
+                <div class="col-6">
+                  <img class="w-100"  src="./assets/images/michel-catalisano--a0D9LpcKV8-unsplash.jpg" alt="">
+                </div>
+                <div class="col-6">
+                  <div class="d-flex flex-column justify-content-center mr-auto h-100 px-4">
+                    <div class="d-flex justify-content-between">
+                      <h6 class="fw-bold">No.22 線上設計展</h6>
+                      <i class="fas fa-times fs-4"></i> 
+                    </div>
+                    <h6 class="fw-bold">01 JUN | 31 OCT</h6>
+                    <div class="d-flex justify-content-between">
+                      <div class="d-flex">
+                        <h6 class="text-dark">全票</h6> 
+                        <h6 class="fw-bold">1</h6>
+                      </div>
+                      <h6 class="fw-bold">$350</h6>                 
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+          </li>
+          <li class="d-flex justify-content-between h-100 mb-4">
+              <div class="row" >
+                <div class="col-6">
+                  <img class="w-100"  src="./assets/images/moralis-tsai-8xsktFRw28I-unsplash.jpg" alt="">
+                </div>
+                <div class="col-6">
+                  <div class="d-flex flex-column justify-content-center mr-auto h-100 px-4">
+                    <div class="d-flex justify-content-between">
+                      <h6 class="fw-bold">No.22 線上設計展</h6>
+                      <i class="fas fa-times fs-4"></i> 
+                    </div>
+                    <h6 class="fw-bold">01 JUN | 31 OCT</h6>
+                    <div class="d-flex justify-content-between">
+                      <div class="d-flex">
+                        <h6 class="text-dark">全票</h6> 
+                        <h6 class="fw-bold">1</h6>
+                      </div>
+                      <h6 class="fw-bold">$350</h6>                 
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+          </li>
+        </ul>
+    </div>
   </div>
   <div class="row">
-    <div class="col-4 offset-8">
+    <div class="col-6 col-md-4 offset-6 offset-md-8">
       <div class="d-flex justify-content-between fw-bold">
         <h5>小計</h5>
         <h5>NT$1050</h5>
       </div>
-      <button type="button" class="btn btn-secondary w-100"><a href="checkotut2.html">下一步</a></button>
+      <button type="button" class="btn btn-secondary w-100"><a class="text-white" href="checkotut2.html">下一步</a></button>
     </div>
   </div>
 </div>

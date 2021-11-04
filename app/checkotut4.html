@@ -1,19 +1,41 @@
 ---
-title: Boostrap Index
+title: 藝術展覽購票網
 layout: ./app/layout.ejs
 engine: ejs
 current: index
 ---
+<nav class="navbar navbar-expand-lg border border-light">
+    <div class="row container">
+      <div class="col-md-9 offset-md-3">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars text-dark fs-4"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav d-flex justify-content-between sub-nav w-100">
+            <li class="nav-item"><a class="nav-link" href="#">音樂</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">戲劇</a></li>
+            <li class="nav-item"><a class="nav-link" href="product.html">設計</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">藝術</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">美食</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">旅遊</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">電影</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">親子</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">期間限定</a></li>
+          </ul>        
+        </div>
+      </div>
+    </div>
+</nav>
 <div class="container mt-8">
   <div class="row">
-    <div class="col-8 offset-2 d-flex flex-column">
+    <div class="col-md-8 offset-md-2 d-flex flex-column">
       <div class="d-flex flex-column justify-content-center align-items-center">
         <i class="far fa-check-circle text-primary fs-1 my-2"></i>
-        <h3 class="text-primary">完成訂購</h3>
+        <h3 class="text-primary ">完成訂購</h3>
       </div>
-      <h5>您的展覽憑證代碼為：</h5>
+      <h5 class="mx-2">您的展覽憑證代碼為：</h5>
       <h2 class="text-primary my-6 text-center">qr147352</h2>
-      <p class="my-4">恭喜您已完成「2020 台味設計展」的購票手續，請於 2020/06/01 ~ 2020/10/31 於展覽入口頁面輸入「展覽憑證代碼」，經驗證無誤即可瀏覽。</p>
+      <p class="my-4 mx-2">恭喜您已完成「2020 台味設計展」的購票手續，請於 2020/06/01 ~ 2020/10/31 於展覽入口頁面輸入「展覽憑證代碼」，經驗證無誤即可瀏覽。</p>
       <div class="row my-8">
         <div class="col-6"><button type="button" class="btn btn-outline-primary w-100"><a href="product.html">繼續瀏覽</a></button></div>
         <div class="col-6"><button type="button" class="btn btn-secondary w-100"><a href="product.html">看展去</a></button></div>
