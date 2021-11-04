@@ -9,6 +9,10 @@ a {
   color: #707070;
 }
 
+.btn a {
+  text-decoration: none;
+}
+
 a:hover {
   text-decoration: none;
   color: #EFEFEF;
@@ -76,16 +80,18 @@ img {
   height: 100%;
 }
 
-.swiper-slide {
+.swiper-wrapper {
   width: 100%;
 }
 
-.swiper-wrapper {
-  width: 350px;
+@media (max-width: 768px) {
+  .swiper-slide img {
+    width: 350px;
+  }
 }
 
 .swiper-slide img {
-  width: 350px;
+  width: 100%;
   height: 350px;
   -o-object-fit: cover;
      object-fit: cover;
