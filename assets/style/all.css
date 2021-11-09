@@ -19,6 +19,18 @@ a:hover {
   opacity: 0.7;
 }
 
+.btn-outline-primary:hover a,
+.btn-secondary a {
+  color: #EFEFEF;
+}
+
+.img-fluid {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .banner {
   height: 480px;
   width: 100%;
@@ -82,12 +94,6 @@ img {
 
 .swiper-wrapper {
   width: 100%;
-}
-
-@media (max-width: 768px) {
-  .swiper-slide img {
-    width: 350px;
-  }
 }
 
 .swiper-slide img {
