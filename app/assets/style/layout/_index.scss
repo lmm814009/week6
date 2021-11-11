@@ -19,8 +19,11 @@ a:hover{
   color: $light;
   opacity: 0.7;
 }
-.btn-outline-primary:hover a,
 .btn-secondary a{
+  color: #fff;
+}
+.btn-outline-primary:hover a{
+  background-color: $primary;
   color: $light;
 }
 
@@ -45,6 +48,9 @@ img {
 .nav-link img{
   width: 24px;
 }
+.nav-item a{
+  color: $dark;
+}
 .nav-link span{
   position: absolute;
   top: 2px;
@@ -57,7 +63,9 @@ img {
   vertical-align: bottom;
   font-size: 0.75rem;
 }
-
+.ticket li a{
+  text-decoration: none;
+}
 
 .sub-nav li a{
   border-bottom: 2px solid transparent;
